@@ -1,0 +1,29 @@
+# === Entorno virtual de Python ===
+.venv/
+venv/
+env/
+
+# === Cache de Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === macOS ===
+.DS_Store
+
+# === Power BI (archivos temporales/backup) ===
+*.pbix.tmp
+*~$*
+
+# -----------------------------------------------------------
+# NOTA IMPORTANTE:
+# La carpeta data/ SÍ se versiona a propósito. El objetivo del
+# proyecto es llevar el registro de los datos en cada etapa
+# (crudo -> limpio -> transformado). NO la ignoramos.
+# Si algún archivo de datos supera ~50 MB, avísame para
+# configurar Git LFS.
+# -----------------------------------------------------------
