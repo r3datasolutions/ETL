@@ -12,6 +12,7 @@ Reglas aplicadas a cada tabla:
   3. Eliminar columnas 100 % vacías (p. ej. GiftMessage).
   4. Normalizar columnas de fecha a formato ISO 'YYYY-MM-DD'.
   5. Eliminar filas duplicadas exactas.
+  6. Anonimizar columnas con datos personales (ver scripts/anonimizar.py).
 Reglas específicas:
   - 'Sheet1' se excluye por ser un duplicado exacto de 'shipments'.
 
@@ -23,6 +24,8 @@ Uso:
 from pathlib import Path
 
 import pandas as pd
+
+from anonimizar import anonimizar
 
 RAIZ = Path(__file__).resolve().parent.parent
 DIR_BRONZE = RAIZ / "data" / "bronze"
@@ -75,6 +78,11 @@ def limpiar_tabla(df: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
     if n_dup:
         df = df.drop_duplicates()
         cambios.append(f"filas duplicadas eliminadas: {n_dup}")
+
+    # 6) Anonimizar datos personales (PII)
+    df, pii = anonimizar(df)
+    if pii:
+        cambios.append(f"🔒 PII anonimizada: {pii}")
 
     return df, cambios
 

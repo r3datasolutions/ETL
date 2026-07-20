@@ -19,11 +19,33 @@ __pycache__/
 *.pbix.tmp
 *~$*
 
+# ===========================================================
+# SECRETOS — nunca deben entrar a git
+# ===========================================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.*
+
+# ===========================================================
+# DATOS SENSIBLES (PII) — ver docs/SEGURIDAD.md
+# ===========================================================
+# Regla: la PII se anonimiza en Silver (scripts/anonimizar.py).
+# Las tablas que NO se pueden anonimizar porque necesitan el dato
+# real quedan fuera de git y se regeneran localmente desde la fuente.
+#
+#   security.csv -> Power BI necesita el UserEmail REAL para el
+#                   Row-Level Security, así que no se versiona.
+data/bronze/security.csv
+data/silver/security.csv
+
 # -----------------------------------------------------------
-# NOTA IMPORTANTE:
-# La carpeta data/ SÍ se versiona a propósito. El objetivo del
-# proyecto es llevar el registro de los datos en cada etapa
-# (crudo -> limpio -> transformado). NO la ignoramos.
+# NOTA: el resto de data/ SÍ se versiona a propósito. El objetivo
+# del proyecto es llevar el registro de los datos en cada etapa
+# (bronze -> silver -> gold). NO lo ignoramos.
 # Si algún archivo de datos supera ~50 MB, avísame para
 # configurar Git LFS.
 # -----------------------------------------------------------

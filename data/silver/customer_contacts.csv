@@ -1,154 +1,154 @@
 CustomerID,ContactName,Email,IsPrimary
-1001,Emma Adel,emma.adel@example.com,True
-1002,Sarah Reyes,sarah.reyes@example.com,True
-1002,Raj Hassan,raj.hassan@example.com,False
-1002,Liam Park,liam.park@example.com,False
-1002,Raj Rossi,raj.rossi@example.com,False
-1003,Mei Sato,mei.sato@example.com,True
-1004,Mei Khan,mei.khan@example.com,True
-1004,Hans Wang,hans.wang@example.com,False
-1005,Aisha Wang,aisha.wang@example.com,True
-1005,Emma Adel,emma.adel@example.com,False
-1005,Sofia Schmidt,sofia.schmidt@example.com,False
-1006,David Park,david.park@example.com,True
-1006,Noah Ramos,noah.ramos@example.com,False
-1006,Liam Rossi,liam.rossi@example.com,False
-1006,Priya Murphy,priya.murphy@example.com,False
-1007,Sofia Hassan,sofia.hassan@example.com,True
-1007,Liam Park,liam.park@example.com,False
-1007,Yuki Murphy,yuki.murphy@example.com,False
-1008,Hans Lopez,hans.lopez@example.com,True
-1008,Omar Patel,omar.patel@example.com,False
-1008,Mei Chen,mei.chen@example.com,False
-1009,Mei Murphy,mei.murphy@example.com,True
-1010,Carlos Khan,carlos.khan@example.com,True
-1011,Fatima Silva,fatima.silva@example.com,True
-1012,David Murphy,david.murphy@example.com,True
-1012,Carlos Murphy,carlos.murphy@example.com,False
-1012,Tom Adel,tom.adel@example.com,False
-1013,Carlos Park,carlos.park@example.com,True
-1013,Fatima Schmidt,fatima.schmidt@example.com,False
-1013,Diego Khan,diego.khan@example.com,False
-1014,Priya Park,priya.park@example.com,True
-1014,Carlos Silva,carlos.silva@example.com,False
-1014,Carlos Park,carlos.park@example.com,False
-1014,Hans Ali,hans.ali@example.com,False
-1015,Liam Silva,liam.silva@example.com,True
-1015,Chen Wang,chen.wang@example.com,False
-1016,Chen Weber,chen.weber@example.com,True
-1017,Lena Weber,lena.weber@example.com,True
-1018,Yuki Lopez,yuki.lopez@example.com,True
-1018,Sarah Brandt,sarah.brandt@example.com,False
-1018,Omar Ali,omar.ali@example.com,False
-1019,Mei Khan,mei.khan@example.com,True
-1019,Sarah Chen,sarah.chen@example.com,False
-1019,Emma Ramos,emma.ramos@example.com,False
-1019,Aisha Murphy,aisha.murphy@example.com,False
-1020,Yuki Brandt,yuki.brandt@example.com,True
-1020,Carlos Adel,carlos.adel@example.com,False
-1020,Yuki Ali,yuki.ali@example.com,False
-1020,Chen Chen,chen.chen@example.com,False
-1021,Omar Brandt,omar.brandt@example.com,True
-1022,Mei Weber,mei.weber@example.com,True
-1023,Liam Patel,liam.patel@example.com,True
-1023,Chen Rossi,chen.rossi@example.com,False
-1023,Liam Weber,liam.weber@example.com,False
-1023,Diego Schmidt,diego.schmidt@example.com,False
-1024,Carlos Murphy,carlos.murphy@example.com,True
-1025,Nora Ali,nora.ali@example.com,True
-1026,Emma Adel,emma.adel@example.com,True
-1026,Tom Nair,tom.nair@example.com,False
-1026,Aisha Wang,aisha.wang@example.com,False
-1026,Tom Lin,tom.lin@example.com,False
-1027,Nora Ramos,nora.ramos@example.com,True
-1027,Omar Weber,omar.weber@example.com,False
-1028,Yuki Park,yuki.park@example.com,True
-1028,Sarah Patel,sarah.patel@example.com,False
-1028,Liam Brandt,liam.brandt@example.com,False
-1029,Aisha Silva,aisha.silva@example.com,True
-1029,Priya Schmidt,priya.schmidt@example.com,False
-1030,Mei Hassan,mei.hassan@example.com,True
-1030,Tom Murphy,tom.murphy@example.com,False
-1030,Sarah Rossi,sarah.rossi@example.com,False
-1031,Yuki Ali,yuki.ali@example.com,True
-1032,Fatima Hassan,fatima.hassan@example.com,True
-1032,Liam Adel,liam.adel@example.com,False
-1032,David Hassan,david.hassan@example.com,False
-1032,Sarah Sato,sarah.sato@example.com,False
-1033,Chen Rossi,chen.rossi@example.com,True
-1033,Carlos Chen,carlos.chen@example.com,False
-1034,David Nair,david.nair@example.com,True
-1034,Liam Ali,liam.ali@example.com,False
-1034,Aisha Schmidt,aisha.schmidt@example.com,False
-1034,Mei Hassan,mei.hassan@example.com,False
-1035,Yuki Nair,yuki.nair@example.com,True
-1035,Yuki Brandt,yuki.brandt@example.com,False
-1035,Mei Schmidt,mei.schmidt@example.com,False
-1036,Emma Schmidt,emma.schmidt@example.com,True
-1037,Carlos Lopez,carlos.lopez@example.com,True
-1037,Omar Nair,omar.nair@example.com,False
-1038,Omar Weber,omar.weber@example.com,True
-1039,Lena Wang,lena.wang@example.com,True
-1039,Omar Chen,omar.chen@example.com,False
-1040,Raj Rossi,raj.rossi@example.com,True
-1040,Fatima Ali,fatima.ali@example.com,False
-1041,Fatima Wang,fatima.wang@example.com,True
-1041,Yuki Sato,yuki.sato@example.com,False
-1041,Omar Rossi,omar.rossi@example.com,False
-1041,Mei Patel,mei.patel@example.com,False
-1042,Nora Weber,nora.weber@example.com,True
-1042,Fatima Reyes,fatima.reyes@example.com,False
-1042,Carlos Schmidt,carlos.schmidt@example.com,False
-1042,Mei Adel,mei.adel@example.com,False
-1043,Sofia Reyes,sofia.reyes@example.com,True
-1043,Tom Lopez,tom.lopez@example.com,False
-1043,Nora Chen,nora.chen@example.com,False
-1043,Mei Wang,mei.wang@example.com,False
-1044,Sofia Ali,sofia.ali@example.com,True
-1044,Noah Reyes,noah.reyes@example.com,False
-1044,Sofia Ali,sofia.ali@example.com,False
-1044,Diego Sato,diego.sato@example.com,False
-1045,Emma Khan,emma.khan@example.com,True
-1045,Tom Rossi,tom.rossi@example.com,False
-1045,David Sato,david.sato@example.com,False
-1045,Mei Schmidt,mei.schmidt@example.com,False
-1046,Tom Nair,tom.nair@example.com,True
-1046,Sofia Rossi,sofia.rossi@example.com,False
-1047,Carlos Lopez,carlos.lopez@example.com,True
-1047,Nora Hassan,nora.hassan@example.com,False
-1048,Yuki Wang,yuki.wang@example.com,True
-1048,Tom Sato,tom.sato@example.com,False
-1048,Mei Sato,mei.sato@example.com,False
-1048,David Silva,david.silva@example.com,False
-1049,Nora Weber,nora.weber@example.com,True
-1049,Chen Khan,chen.khan@example.com,False
-1049,Yuki Chen,yuki.chen@example.com,False
-1049,Fatima Khan,fatima.khan@example.com,False
-1050,Nora Hassan,nora.hassan@example.com,True
-1050,Omar Wang,omar.wang@example.com,False
-1050,Mei Adel,mei.adel@example.com,False
-1051,Yuki Khan,yuki.khan@example.com,True
-1051,Emma Chen,emma.chen@example.com,False
-1051,Liam Schmidt,liam.schmidt@example.com,False
-1051,Carlos Lin,carlos.lin@example.com,False
-1052,Nora Brandt,nora.brandt@example.com,True
-1052,Diego Sato,diego.sato@example.com,False
-1052,Raj Ramos,raj.ramos@example.com,False
-1053,Omar Khan,omar.khan@example.com,True
-1053,Mei Adel,mei.adel@example.com,False
-1054,Emma Silva,emma.silva@example.com,True
-1055,Yuki Wang,yuki.wang@example.com,True
-1056,Chen Hassan,chen.hassan@example.com,True
-1056,Omar Brandt,omar.brandt@example.com,False
-1057,Chen Brandt,chen.brandt@example.com,True
-1057,Sofia Reyes,sofia.reyes@example.com,False
-1058,Carlos Nair,carlos.nair@example.com,True
-1058,Sofia Wang,sofia.wang@example.com,False
-1058,Nora Rossi,nora.rossi@example.com,False
-1058,Priya Silva,priya.silva@example.com,False
-1059,Nora Patel,nora.patel@example.com,True
-1059,Diego Lopez,diego.lopez@example.com,False
-1060,Sofia Adel,sofia.adel@example.com,True
-1060,Aisha Schmidt,aisha.schmidt@example.com,False
-1060,Emma Murphy,emma.murphy@example.com,False
-1060,Lena Ramos,lena.ramos@example.com,False
+1001,Contacto_580f3c,e***@example.com,True
+1002,Contacto_7c34bd,s***@example.com,True
+1002,Contacto_b9f2d2,r***@example.com,False
+1002,Contacto_6a4ea4,l***@example.com,False
+1002,Contacto_49f72b,r***@example.com,False
+1003,Contacto_887f69,m***@example.com,True
+1004,Contacto_1d42e7,m***@example.com,True
+1004,Contacto_c9ebce,h***@example.com,False
+1005,Contacto_1b36f2,a***@example.com,True
+1005,Contacto_580f3c,e***@example.com,False
+1005,Contacto_d6c600,s***@example.com,False
+1006,Contacto_73bdca,d***@example.com,True
+1006,Contacto_68e6b9,n***@example.com,False
+1006,Contacto_871734,l***@example.com,False
+1006,Contacto_15bff3,p***@example.com,False
+1007,Contacto_366075,s***@example.com,True
+1007,Contacto_6a4ea4,l***@example.com,False
+1007,Contacto_9dc429,y***@example.com,False
+1008,Contacto_2b3353,h***@example.com,True
+1008,Contacto_26dbf0,o***@example.com,False
+1008,Contacto_e74135,m***@example.com,False
+1009,Contacto_9366ac,m***@example.com,True
+1010,Contacto_f9c8bb,c***@example.com,True
+1011,Contacto_55f7aa,f***@example.com,True
+1012,Contacto_eba85d,d***@example.com,True
+1012,Contacto_f7879a,c***@example.com,False
+1012,Contacto_f8e5ba,t***@example.com,False
+1013,Contacto_373b59,c***@example.com,True
+1013,Contacto_7e0f2b,f***@example.com,False
+1013,Contacto_d67f43,d***@example.com,False
+1014,Contacto_1384b9,p***@example.com,True
+1014,Contacto_d8eed2,c***@example.com,False
+1014,Contacto_373b59,c***@example.com,False
+1014,Contacto_3a1f62,h***@example.com,False
+1015,Contacto_17ead3,l***@example.com,True
+1015,Contacto_d33937,c***@example.com,False
+1016,Contacto_be72d7,c***@example.com,True
+1017,Contacto_ba9d25,l***@example.com,True
+1018,Contacto_f4540f,y***@example.com,True
+1018,Contacto_c89fcc,s***@example.com,False
+1018,Contacto_551d1b,o***@example.com,False
+1019,Contacto_1d42e7,m***@example.com,True
+1019,Contacto_69261a,s***@example.com,False
+1019,Contacto_ffcecf,e***@example.com,False
+1019,Contacto_757c89,a***@example.com,False
+1020,Contacto_389f22,y***@example.com,True
+1020,Contacto_367613,c***@example.com,False
+1020,Contacto_942b35,y***@example.com,False
+1020,Contacto_784dd2,c***@example.com,False
+1021,Contacto_4e3b08,o***@example.com,True
+1022,Contacto_8ed97b,m***@example.com,True
+1023,Contacto_785dcd,l***@example.com,True
+1023,Contacto_e729a1,c***@example.com,False
+1023,Contacto_fa7908,l***@example.com,False
+1023,Contacto_04827b,d***@example.com,False
+1024,Contacto_f7879a,c***@example.com,True
+1025,Contacto_94bec5,n***@example.com,True
+1026,Contacto_580f3c,e***@example.com,True
+1026,Contacto_763a26,t***@example.com,False
+1026,Contacto_1b36f2,a***@example.com,False
+1026,Contacto_2307da,t***@example.com,False
+1027,Contacto_f3b274,n***@example.com,True
+1027,Contacto_63454d,o***@example.com,False
+1028,Contacto_ab5571,y***@example.com,True
+1028,Contacto_5c78be,s***@example.com,False
+1028,Contacto_2953b2,l***@example.com,False
+1029,Contacto_553195,a***@example.com,True
+1029,Contacto_5cbfca,p***@example.com,False
+1030,Contacto_8f458b,m***@example.com,True
+1030,Contacto_06580b,t***@example.com,False
+1030,Contacto_7b69ad,s***@example.com,False
+1031,Contacto_942b35,y***@example.com,True
+1032,Contacto_598f41,f***@example.com,True
+1032,Contacto_c2959b,l***@example.com,False
+1032,Contacto_fe4387,d***@example.com,False
+1032,Contacto_3b7e06,s***@example.com,False
+1033,Contacto_e729a1,c***@example.com,True
+1033,Contacto_daf1fb,c***@example.com,False
+1034,Contacto_e0baf0,d***@example.com,True
+1034,Contacto_23989c,l***@example.com,False
+1034,Contacto_6eea41,a***@example.com,False
+1034,Contacto_8f458b,m***@example.com,False
+1035,Contacto_679be1,y***@example.com,True
+1035,Contacto_389f22,y***@example.com,False
+1035,Contacto_844f75,m***@example.com,False
+1036,Contacto_cd39aa,e***@example.com,True
+1037,Contacto_0441cd,c***@example.com,True
+1037,Contacto_f66dd8,o***@example.com,False
+1038,Contacto_63454d,o***@example.com,True
+1039,Contacto_dca3b9,l***@example.com,True
+1039,Contacto_479989,o***@example.com,False
+1040,Contacto_49f72b,r***@example.com,True
+1040,Contacto_a52359,f***@example.com,False
+1041,Contacto_c02b9a,f***@example.com,True
+1041,Contacto_7f05f0,y***@example.com,False
+1041,Contacto_8b33a0,o***@example.com,False
+1041,Contacto_da8d8b,m***@example.com,False
+1042,Contacto_f37b49,n***@example.com,True
+1042,Contacto_1f70fd,f***@example.com,False
+1042,Contacto_680515,c***@example.com,False
+1042,Contacto_0e876a,m***@example.com,False
+1043,Contacto_fe8377,s***@example.com,True
+1043,Contacto_d9a63e,t***@example.com,False
+1043,Contacto_37c688,n***@example.com,False
+1043,Contacto_5101af,m***@example.com,False
+1044,Contacto_f2bd86,s***@example.com,True
+1044,Contacto_e0be8e,n***@example.com,False
+1044,Contacto_f2bd86,s***@example.com,False
+1044,Contacto_c04cc7,d***@example.com,False
+1045,Contacto_1001bb,e***@example.com,True
+1045,Contacto_9a493c,t***@example.com,False
+1045,Contacto_dd5d8c,d***@example.com,False
+1045,Contacto_844f75,m***@example.com,False
+1046,Contacto_763a26,t***@example.com,True
+1046,Contacto_421ce4,s***@example.com,False
+1047,Contacto_0441cd,c***@example.com,True
+1047,Contacto_f19cf0,n***@example.com,False
+1048,Contacto_782305,y***@example.com,True
+1048,Contacto_d31335,t***@example.com,False
+1048,Contacto_887f69,m***@example.com,False
+1048,Contacto_683d9c,d***@example.com,False
+1049,Contacto_f37b49,n***@example.com,True
+1049,Contacto_9845f0,c***@example.com,False
+1049,Contacto_503723,y***@example.com,False
+1049,Contacto_316190,f***@example.com,False
+1050,Contacto_f19cf0,n***@example.com,True
+1050,Contacto_52485b,o***@example.com,False
+1050,Contacto_0e876a,m***@example.com,False
+1051,Contacto_ad8c97,y***@example.com,True
+1051,Contacto_a2c688,e***@example.com,False
+1051,Contacto_5c9224,l***@example.com,False
+1051,Contacto_aee92c,c***@example.com,False
+1052,Contacto_fc528d,n***@example.com,True
+1052,Contacto_c04cc7,d***@example.com,False
+1052,Contacto_f46545,r***@example.com,False
+1053,Contacto_7d70fa,o***@example.com,True
+1053,Contacto_0e876a,m***@example.com,False
+1054,Contacto_5adbf6,e***@example.com,True
+1055,Contacto_782305,y***@example.com,True
+1056,Contacto_9de605,c***@example.com,True
+1056,Contacto_4e3b08,o***@example.com,False
+1057,Contacto_56f0b4,c***@example.com,True
+1057,Contacto_fe8377,s***@example.com,False
+1058,Contacto_e0072e,c***@example.com,True
+1058,Contacto_a75aad,s***@example.com,False
+1058,Contacto_7beb34,n***@example.com,False
+1058,Contacto_f9e31c,p***@example.com,False
+1059,Contacto_102862,n***@example.com,True
+1059,Contacto_b37091,d***@example.com,False
+1060,Contacto_3783f2,s***@example.com,True
+1060,Contacto_6eea41,a***@example.com,False
+1060,Contacto_ca1b24,e***@example.com,False
+1060,Contacto_17615a,l***@example.com,False

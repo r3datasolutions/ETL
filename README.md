@@ -101,6 +101,23 @@ apunta a `data/gold/`, carga los 5 CSV y crea las relaciones:
 - `fact_orders[CustomerID]` → `dim_customer[CustomerID]`
 - `fact_orders[OrderDate]` → `dim_date[Date]`
 
+## 🔒 Seguridad
+
+Los datos personales (PII) se **anonimizan en el paso Bronze → Silver**
+(`scripts/anonimizar.py`), de modo que a partir de Silver ninguna tabla
+contiene datos personales en claro:
+
+| Columna | Antes | Después |
+|---------|-------|---------|
+| `Email` | `emma.adel@example.com` | `e***@example.com` |
+| `Phone` | `+77-140-8078` | `***-***-8078` |
+| `ContactName` / `AccountManager` | `Sarah Lin` | `Gestor_a1b2c3` (hash estable) |
+
+La tabla `security` queda **fuera de git** (Power BI necesita el `UserEmail`
+real para el Row-Level Security) y se regenera localmente.
+
+📄 Criterio completo en [`docs/SEGURIDAD.md`](docs/SEGURIDAD.md).
+
 ## ⚙️ Convenciones
 
 - **Bronze es de solo lectura**: nunca se edita a mano. Toda transformación se

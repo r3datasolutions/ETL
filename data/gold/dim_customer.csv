@@ -1,62 +1,62 @@
 CustomerID,CustomerName,Segment,AccountManager,PaymentTerms,City,Region
-1001,Meridian Group,Mid-Market,Sarah Lin,Net 30,Buenos Aires,Latin America
-1002,Cascade Industries,Enterprise,Tom Reyes,Net 60,Berlin,Europe
-1003,Nova Retail,Mid-Market,Mei Chen,Net 15,Sydney,Asia Pacific
-1004,Catalyst Industries,Mid-Market,David Park,Prepaid,Singapore,Asia Pacific
-1005,Cascade Commerce,Mid-Market,Omar Khan,Net 30,Amsterdam,Europe
-1006,Quantum Logistics,SMB,Sarah Lin,Net 60,Dubai,Middle East
-1007,Vanguard Holdings,Mid-Market,Tom Reyes,Net 15,Toronto,North America
-1008,Catalyst Distribution,SMB,Mei Chen,Prepaid,Sao Paulo,Latin America
-1009,Keystone Distribution,SMB,David Park,Net 30,Madrid,Europe
-1010,Vertex Distribution,Enterprise,Omar Khan,Net 60,Buenos Aires,Latin America
-1011,Atlas Industries,Enterprise,Sarah Lin,Net 15,Toronto,North America
-1012,Apex Commerce,Enterprise,Tom Reyes,Prepaid,Mumbai,Asia Pacific
-1013,Fusion Logistics,Mid-Market,Mei Chen,Net 30,Tokyo,Asia Pacific
-1014,Pinnacle Distribution,SMB,David Park,Net 60,Sydney,Asia Pacific
-1015,Meridian Commerce,SMB,Omar Khan,Net 15,Dubai,Middle East
-1016,Summit Commerce,Enterprise,Sarah Lin,Prepaid,Riyadh,Middle East
-1017,Cascade Group,Mid-Market,Tom Reyes,Net 30,Mexico City,Latin America
-1018,Zenith Logistics,SMB,Mei Chen,Net 60,Amsterdam,Europe
-1019,Zenith Distribution,SMB,David Park,Net 15,Paris,Europe
-1020,Cascade Partners,Mid-Market,Omar Khan,Prepaid,Riyadh,Middle East
-1021,Momentum Holdings,Mid-Market,Sarah Lin,Net 30,Berlin,Europe
-1022,Meridian Retail,SMB,Tom Reyes,Net 60,Buenos Aires,Latin America
-1023,Keystone Logistics,SMB,Mei Chen,Net 15,Cairo,Middle East
-1024,Vertex Logistics,Enterprise,David Park,Prepaid,Istanbul,Middle East
-1025,Pinnacle Trading,SMB,Omar Khan,Net 30,Paris,Europe
-1026,Zenith Holdings,SMB,Sarah Lin,Net 60,Sydney,Asia Pacific
-1027,Nova Partners,Mid-Market,Tom Reyes,Net 15,New York,North America
-1028,Summit Partners,SMB,Mei Chen,Prepaid,London,Europe
-1029,Vertex Supply,Enterprise,David Park,Net 30,Chicago,North America
-1030,Pinnacle Commerce,SMB,Omar Khan,Net 60,London,Europe
-1031,Apex Trading,SMB,Sarah Lin,Net 15,Los Angeles,North America
-1032,Atlas Group,Mid-Market,Tom Reyes,Prepaid,Cairo,Middle East
-1033,Meridian Supply,Enterprise,Mei Chen,Net 30,Buenos Aires,Latin America
-1034,Momentum Group,Mid-Market,David Park,Net 60,Berlin,Europe
-1035,Evergreen Partners,Mid-Market,Omar Khan,Net 15,Amsterdam,Europe
-1036,Vanguard Logistics,SMB,Sarah Lin,Prepaid,Los Angeles,North America
-1037,Keystone Commerce,Mid-Market,Tom Reyes,Net 30,Mumbai,Asia Pacific
-1038,Summit Retail,Mid-Market,Mei Chen,Net 60,Cairo,Middle East
-1039,Zenith Group,SMB,David Park,Net 15,Chicago,North America
-1040,Beacon Group,Mid-Market,Omar Khan,Prepaid,Cairo,Middle East
-1041,Apex Holdings,SMB,Sarah Lin,Net 30,Toronto,North America
-1042,Fusion Group,Mid-Market,Tom Reyes,Net 60,Riyadh,Middle East
-1043,Catalyst Partners,SMB,Mei Chen,Net 15,Istanbul,Middle East
-1044,Horizon Supply,SMB,David Park,Prepaid,Madrid,Europe
-1045,Evergreen Supply,Mid-Market,Omar Khan,Net 30,Mumbai,Asia Pacific
-1046,Meridian Partners,SMB,Sarah Lin,Net 60,Tokyo,Asia Pacific
-1047,Fusion Distribution,SMB,Tom Reyes,Net 15,Sao Paulo,Latin America
-1048,Orbit Holdings,Mid-Market,Mei Chen,Prepaid,Istanbul,Middle East
-1049,Apex Group,Mid-Market,David Park,Net 30,Los Angeles,North America
-1050,Evergreen Group,Enterprise,Omar Khan,Net 60,Paris,Europe
-1051,Evergreen Distribution,Mid-Market,Sarah Lin,Net 15,Toronto,North America
-1052,Quantum Distribution,Mid-Market,Tom Reyes,Prepaid,Berlin,Europe
-1053,Summit Group,Enterprise,Mei Chen,Net 30,Berlin,Europe
-1054,Horizon Logistics,Enterprise,David Park,Net 60,Mexico City,Latin America
-1055,Pioneer Partners,Enterprise,Omar Khan,Net 15,Buenos Aires,Latin America
-1056,Atlas Holdings,Enterprise,Sarah Lin,Prepaid,Madrid,Europe
-1057,Keystone Partners,Enterprise,Tom Reyes,Net 30,Tokyo,Asia Pacific
-1058,Pioneer Holdings,Enterprise,Mei Chen,Net 60,Toronto,North America
-1059,Quantum Supply,Mid-Market,David Park,Net 15,Amsterdam,Europe
-1060,Cascade Retail,Mid-Market,Omar Khan,Prepaid,Cairo,Middle East
-9999,TEST ACCOUNT,SMB,TEST,Prepaid,,
+1001,Meridian Group,Mid-Market,Gestor_2d652f,Net 30,Buenos Aires,Latin America
+1002,Cascade Industries,Enterprise,Gestor_8d09cf,Net 60,Berlin,Europe
+1003,Nova Retail,Mid-Market,Gestor_e74135,Net 15,Sydney,Asia Pacific
+1004,Catalyst Industries,Mid-Market,Gestor_73bdca,Prepaid,Singapore,Asia Pacific
+1005,Cascade Commerce,Mid-Market,Gestor_7d70fa,Net 30,Amsterdam,Europe
+1006,Quantum Logistics,SMB,Gestor_2d652f,Net 60,Dubai,Middle East
+1007,Vanguard Holdings,Mid-Market,Gestor_8d09cf,Net 15,Toronto,North America
+1008,Catalyst Distribution,SMB,Gestor_e74135,Prepaid,Sao Paulo,Latin America
+1009,Keystone Distribution,SMB,Gestor_73bdca,Net 30,Madrid,Europe
+1010,Vertex Distribution,Enterprise,Gestor_7d70fa,Net 60,Buenos Aires,Latin America
+1011,Atlas Industries,Enterprise,Gestor_2d652f,Net 15,Toronto,North America
+1012,Apex Commerce,Enterprise,Gestor_8d09cf,Prepaid,Mumbai,Asia Pacific
+1013,Fusion Logistics,Mid-Market,Gestor_e74135,Net 30,Tokyo,Asia Pacific
+1014,Pinnacle Distribution,SMB,Gestor_73bdca,Net 60,Sydney,Asia Pacific
+1015,Meridian Commerce,SMB,Gestor_7d70fa,Net 15,Dubai,Middle East
+1016,Summit Commerce,Enterprise,Gestor_2d652f,Prepaid,Riyadh,Middle East
+1017,Cascade Group,Mid-Market,Gestor_8d09cf,Net 30,Mexico City,Latin America
+1018,Zenith Logistics,SMB,Gestor_e74135,Net 60,Amsterdam,Europe
+1019,Zenith Distribution,SMB,Gestor_73bdca,Net 15,Paris,Europe
+1020,Cascade Partners,Mid-Market,Gestor_7d70fa,Prepaid,Riyadh,Middle East
+1021,Momentum Holdings,Mid-Market,Gestor_2d652f,Net 30,Berlin,Europe
+1022,Meridian Retail,SMB,Gestor_8d09cf,Net 60,Buenos Aires,Latin America
+1023,Keystone Logistics,SMB,Gestor_e74135,Net 15,Cairo,Middle East
+1024,Vertex Logistics,Enterprise,Gestor_73bdca,Prepaid,Istanbul,Middle East
+1025,Pinnacle Trading,SMB,Gestor_7d70fa,Net 30,Paris,Europe
+1026,Zenith Holdings,SMB,Gestor_2d652f,Net 60,Sydney,Asia Pacific
+1027,Nova Partners,Mid-Market,Gestor_8d09cf,Net 15,New York,North America
+1028,Summit Partners,SMB,Gestor_e74135,Prepaid,London,Europe
+1029,Vertex Supply,Enterprise,Gestor_73bdca,Net 30,Chicago,North America
+1030,Pinnacle Commerce,SMB,Gestor_7d70fa,Net 60,London,Europe
+1031,Apex Trading,SMB,Gestor_2d652f,Net 15,Los Angeles,North America
+1032,Atlas Group,Mid-Market,Gestor_8d09cf,Prepaid,Cairo,Middle East
+1033,Meridian Supply,Enterprise,Gestor_e74135,Net 30,Buenos Aires,Latin America
+1034,Momentum Group,Mid-Market,Gestor_73bdca,Net 60,Berlin,Europe
+1035,Evergreen Partners,Mid-Market,Gestor_7d70fa,Net 15,Amsterdam,Europe
+1036,Vanguard Logistics,SMB,Gestor_2d652f,Prepaid,Los Angeles,North America
+1037,Keystone Commerce,Mid-Market,Gestor_8d09cf,Net 30,Mumbai,Asia Pacific
+1038,Summit Retail,Mid-Market,Gestor_e74135,Net 60,Cairo,Middle East
+1039,Zenith Group,SMB,Gestor_73bdca,Net 15,Chicago,North America
+1040,Beacon Group,Mid-Market,Gestor_7d70fa,Prepaid,Cairo,Middle East
+1041,Apex Holdings,SMB,Gestor_2d652f,Net 30,Toronto,North America
+1042,Fusion Group,Mid-Market,Gestor_8d09cf,Net 60,Riyadh,Middle East
+1043,Catalyst Partners,SMB,Gestor_e74135,Net 15,Istanbul,Middle East
+1044,Horizon Supply,SMB,Gestor_73bdca,Prepaid,Madrid,Europe
+1045,Evergreen Supply,Mid-Market,Gestor_7d70fa,Net 30,Mumbai,Asia Pacific
+1046,Meridian Partners,SMB,Gestor_2d652f,Net 60,Tokyo,Asia Pacific
+1047,Fusion Distribution,SMB,Gestor_8d09cf,Net 15,Sao Paulo,Latin America
+1048,Orbit Holdings,Mid-Market,Gestor_e74135,Prepaid,Istanbul,Middle East
+1049,Apex Group,Mid-Market,Gestor_73bdca,Net 30,Los Angeles,North America
+1050,Evergreen Group,Enterprise,Gestor_7d70fa,Net 60,Paris,Europe
+1051,Evergreen Distribution,Mid-Market,Gestor_2d652f,Net 15,Toronto,North America
+1052,Quantum Distribution,Mid-Market,Gestor_8d09cf,Prepaid,Berlin,Europe
+1053,Summit Group,Enterprise,Gestor_e74135,Net 30,Berlin,Europe
+1054,Horizon Logistics,Enterprise,Gestor_73bdca,Net 60,Mexico City,Latin America
+1055,Pioneer Partners,Enterprise,Gestor_7d70fa,Net 15,Buenos Aires,Latin America
+1056,Atlas Holdings,Enterprise,Gestor_2d652f,Prepaid,Madrid,Europe
+1057,Keystone Partners,Enterprise,Gestor_8d09cf,Net 30,Tokyo,Asia Pacific
+1058,Pioneer Holdings,Enterprise,Gestor_e74135,Net 60,Toronto,North America
+1059,Quantum Supply,Mid-Market,Gestor_73bdca,Net 15,Amsterdam,Europe
+1060,Cascade Retail,Mid-Market,Gestor_7d70fa,Prepaid,Cairo,Middle East
+9999,TEST ACCOUNT,SMB,Gestor_d1fa1f,Prepaid,,

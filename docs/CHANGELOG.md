@@ -8,6 +8,34 @@ El formato sigue, de forma simplificada, la convención
 
 ---
 
+## [Sin tag] — 2026-07-19 · 🔒 Seguridad: anonimización de PII
+
+### Añadido
+- `scripts/anonimizar.py`: enmascarado y seudonimización determinista de PII.
+- `docs/SEGURIDAD.md`: marco de referencia (clasificación de datos, técnicas,
+  gestión de secretos y medidas pendientes).
+- `.env.example`: plantilla de configuración sin valores reales.
+
+### Cambiado
+- `02_bronze_a_silver.py` aplica anonimización como paso 6. A partir de Silver
+  **ninguna tabla contiene PII en claro**:
+  - `Email` → `e***@example.com` (conserva dominio)
+  - `Phone` → `***-***-8078` (conserva últimos 4)
+  - `ContactName` → `Contacto_3f9a1c`, `AccountManager` → `Gestor_a1b2c3`
+    (hash estable: agrupar y unir sigue funcionando; 6 gestores → 6 seudónimos)
+- `.gitignore`: bloquea secretos (`.env`, `*.key`, `*.pem`, `credentials.json`).
+
+### Eliminado del control de versiones
+- `data/{bronze,silver}/security.csv`: no se puede anonimizar porque Power BI
+  necesita el `UserEmail` real para el Row-Level Security. Permanece en disco
+  y se regenera localmente.
+
+> ⚠️ Los datos ya versionados en `v0`–`v2` siguen en el historial de git. Como
+> son sintéticos (material de curso) no hay exposición real; con datos reales
+> habría que reescribir el historial y rotar lo comprometido.
+
+---
+
 ## [v2-gold] — 2026-07-19 · 🥇 Gold (modelo estrella)
 
 ### Añadido
