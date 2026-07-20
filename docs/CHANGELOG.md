@@ -8,6 +8,25 @@ El formato sigue, de forma simplificada, la convención
 
 ---
 
+## [v2-gold] — 2026-07-19 · 🥇 Gold (modelo estrella)
+
+### Añadido
+- `scripts/03_silver_a_gold.py`: construye el modelo dimensional en `data/gold/`.
+- **Dimensiones**: `dim_customer` (61, con Ciudad/Región), `dim_product` (63),
+  `dim_date` (730 días, 2025-2026, meses/días en español).
+- **Hechos**: `fact_orders` (80 = ORDERS_2025 + ORDERS_2026 **unidas**),
+  `fact_sales` (200 líneas, enriquecidas con `OrderDate` y `CustomerID`).
+
+### Decisiones de modelado
+- Unión de órdenes: se conserva el **esquema común**; se descartan las columnas
+  solo-2025 de linaje (`LegacyRef`, `SourceFile`). Se añade `OrderYear`.
+- Los hechos llevan `CustomerID` como FK (las órdenes venían con nombre).
+- 3 productos descontinuados (`Legacy Widget X9`, `Old Model A0`,
+  `Retired Cable Z1`) aparecen en ventas pero no en `dim_product` — se
+  documentan como huérfanos esperados (productos retirados del catálogo).
+
+---
+
 ## [v1-silver] — 2026-07-19 · 🥈 Silver (limpieza)
 
 ### Añadido

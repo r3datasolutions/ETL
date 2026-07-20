@@ -33,8 +33,8 @@ ETL/
 ├── scripts/
 │   ├── 00_explorar_datos.py    # Exploración (no modifica nada)
 │   ├── 01_ingesta_bronze.py    # xlsx -> bronze/*.csv (extrae las 23 hojas)
-│   ├── 02_bronze_a_silver.py   # (próximo) limpieza
-│   └── 03_silver_a_gold.py     # (próximo) modelado / transformación
+│   ├── 02_bronze_a_silver.py   # limpieza (bronze → silver)
+│   └── 03_silver_a_gold.py     # modelo estrella (silver → gold)
 ├── docs/
 │   └── CHANGELOG.md  # Bitácora: qué cambió en cada versión
 ├── .venv/            # Entorno virtual (no se sube a git)
@@ -84,9 +84,22 @@ source .venv/bin/activate
 # 2. (Solo la primera vez, o al clonar en otra máquina) instalar librerías
 pip install -r requirements.txt
 
-# 3. Ejecutar los scripts en orden
-python scripts/01_ingesta_bronze.py
+# 3. Ejecutar los scripts en orden (bronze → silver → gold)
+python scripts/01_ingesta_bronze.py     # xlsx  -> data/bronze/*.csv
+python scripts/02_bronze_a_silver.py    # limpieza -> data/silver/*.csv
+python scripts/03_silver_a_gold.py      # modelo  -> data/gold/*.csv
 ```
+
+## 🔌 Conexión con Power BI
+
+El modelo estrella vive en `data/gold/`. En Power BI: **Obtener datos → Carpeta →**
+apunta a `data/gold/`, carga los 5 CSV y crea las relaciones:
+
+- `fact_sales[CustomerID]` → `dim_customer[CustomerID]`
+- `fact_sales[ProductName]` → `dim_product[ProductName]`
+- `fact_sales[OrderDate]` → `dim_date[Date]`
+- `fact_orders[CustomerID]` → `dim_customer[CustomerID]`
+- `fact_orders[OrderDate]` → `dim_date[Date]`
 
 ## ⚙️ Convenciones
 
