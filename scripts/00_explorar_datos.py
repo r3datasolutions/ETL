@@ -16,7 +16,7 @@ import pandas as pd
 
 # Rutas del proyecto (relativas a la raíz del repo)
 RAIZ = Path(__file__).resolve().parent.parent
-ARCHIVO_CRUDO = RAIZ / "data" / "raw" / "raw_tables.xlsx"
+ARCHIVO_CRUDO = RAIZ / "data" / "bronze" / "raw_tables.xlsx"
 
 
 def explorar():
