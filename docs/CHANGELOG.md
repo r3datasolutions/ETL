@@ -8,6 +8,30 @@ El formato sigue, de forma simplificada, la convención
 
 ---
 
+## [v1-silver] — 2026-07-19 · 🥈 Silver (limpieza)
+
+### Añadido
+- `scripts/02_bronze_a_silver.py`: limpia cada tabla de bronze y escribe el
+  resultado en `data/silver/` (22 tablas).
+
+### Cambiado / Limpieza
+- **Espacios** sobrantes recortados en columnas de texto.
+- **Fechas** normalizadas a formato ISO `YYYY-MM-DD`. `OrderDate` (órdenes)
+  pierde el componente de hora: se usa grano de día para el análisis.
+- **Columnas técnicas** de staging eliminadas: `hash_key`, `source_id`
+  (en `CUST_MASTER` y `products`).
+- **Columnas 100 % vacías** eliminadas: `GiftMessage` (en ORDERS_2025/2026).
+
+### Eliminado
+- Tabla `Sheet1` descartada: era un duplicado exacto de `shipments`.
+
+### Pendiente (se resuelve en capas posteriores)
+- Unión de `ORDERS_2025` + `ORDERS_2026` (esquemas distintos) → capa Gold.
+- Nulos legítimos conservados a propósito: `products.UnitPrice`,
+  `shipments.DeliveryDate` (no se inventan valores).
+
+---
+
 ## [Sin tag] — 2026-07-19 · Adopción de arquitectura de medallón
 
 ### Cambiado

@@ -1,0 +1,62 @@
+CustomerID,CustomerName,Segment,AddressID,AccountManager,PaymentTerms
+1001,Meridian Group,Mid-Market,1.0,Sarah Lin,Net 30
+1002,Cascade Industries,Enterprise,2.0,Tom Reyes,Net 60
+1003,Nova Retail,Mid-Market,3.0,Mei Chen,Net 15
+1004,Catalyst Industries,Mid-Market,4.0,David Park,Prepaid
+1005,Cascade Commerce,Mid-Market,5.0,Omar Khan,Net 30
+1006,Quantum Logistics,SMB,6.0,Sarah Lin,Net 60
+1007,Vanguard Holdings,Mid-Market,7.0,Tom Reyes,Net 15
+1008,Catalyst Distribution,SMB,8.0,Mei Chen,Prepaid
+1009,Keystone Distribution,SMB,9.0,David Park,Net 30
+1010,Vertex Distribution,Enterprise,10.0,Omar Khan,Net 60
+1011,Atlas Industries,Enterprise,11.0,Sarah Lin,Net 15
+1012,Apex Commerce,Enterprise,12.0,Tom Reyes,Prepaid
+1013,Fusion Logistics,Mid-Market,13.0,Mei Chen,Net 30
+1014,Pinnacle Distribution,SMB,14.0,David Park,Net 60
+1015,Meridian Commerce,SMB,15.0,Omar Khan,Net 15
+1016,Summit Commerce,Enterprise,16.0,Sarah Lin,Prepaid
+1017,Cascade Group,Mid-Market,17.0,Tom Reyes,Net 30
+1018,Zenith Logistics,SMB,18.0,Mei Chen,Net 60
+1019,Zenith Distribution,SMB,19.0,David Park,Net 15
+1020,Cascade Partners,Mid-Market,20.0,Omar Khan,Prepaid
+1021,Momentum Holdings,Mid-Market,21.0,Sarah Lin,Net 30
+1022,Meridian Retail,SMB,22.0,Tom Reyes,Net 60
+1023,Keystone Logistics,SMB,23.0,Mei Chen,Net 15
+1024,Vertex Logistics,Enterprise,24.0,David Park,Prepaid
+1025,Pinnacle Trading,SMB,25.0,Omar Khan,Net 30
+1026,Zenith Holdings,SMB,26.0,Sarah Lin,Net 60
+1027,Nova Partners,Mid-Market,27.0,Tom Reyes,Net 15
+1028,Summit Partners,SMB,28.0,Mei Chen,Prepaid
+1029,Vertex Supply,Enterprise,29.0,David Park,Net 30
+1030,Pinnacle Commerce,SMB,30.0,Omar Khan,Net 60
+1031,Apex Trading,SMB,31.0,Sarah Lin,Net 15
+1032,Atlas Group,Mid-Market,32.0,Tom Reyes,Prepaid
+1033,Meridian Supply,Enterprise,33.0,Mei Chen,Net 30
+1034,Momentum Group,Mid-Market,34.0,David Park,Net 60
+1035,Evergreen Partners,Mid-Market,35.0,Omar Khan,Net 15
+1036,Vanguard Logistics,SMB,36.0,Sarah Lin,Prepaid
+1037,Keystone Commerce,Mid-Market,37.0,Tom Reyes,Net 30
+1038,Summit Retail,Mid-Market,38.0,Mei Chen,Net 60
+1039,Zenith Group,SMB,39.0,David Park,Net 15
+1040,Beacon Group,Mid-Market,40.0,Omar Khan,Prepaid
+1041,Apex Holdings,SMB,41.0,Sarah Lin,Net 30
+1042,Fusion Group,Mid-Market,42.0,Tom Reyes,Net 60
+1043,Catalyst Partners,SMB,43.0,Mei Chen,Net 15
+1044,Horizon Supply,SMB,44.0,David Park,Prepaid
+1045,Evergreen Supply,Mid-Market,45.0,Omar Khan,Net 30
+1046,Meridian Partners,SMB,46.0,Sarah Lin,Net 60
+1047,Fusion Distribution,SMB,47.0,Tom Reyes,Net 15
+1048,Orbit Holdings,Mid-Market,48.0,Mei Chen,Prepaid
+1049,Apex Group,Mid-Market,49.0,David Park,Net 30
+1050,Evergreen Group,Enterprise,50.0,Omar Khan,Net 60
+1051,Evergreen Distribution,Mid-Market,51.0,Sarah Lin,Net 15
+1052,Quantum Distribution,Mid-Market,52.0,Tom Reyes,Prepaid
+1053,Summit Group,Enterprise,53.0,Mei Chen,Net 30
+1054,Horizon Logistics,Enterprise,54.0,David Park,Net 60
+1055,Pioneer Partners,Enterprise,55.0,Omar Khan,Net 15
+1056,Atlas Holdings,Enterprise,56.0,Sarah Lin,Prepaid
+1057,Keystone Partners,Enterprise,57.0,Tom Reyes,Net 30
+1058,Pioneer Holdings,Enterprise,58.0,Mei Chen,Net 60
+1059,Quantum Supply,Mid-Market,59.0,David Park,Net 15
+1060,Cascade Retail,Mid-Market,60.0,Omar Khan,Prepaid
+9999,TEST ACCOUNT,SMB,,TEST,Prepaid
